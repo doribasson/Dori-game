@@ -1,0 +1,34 @@
+.MuiTextField-root {
+  border-radius: 15px;
+}
+
+.input_container {
+  display: flex;
+  /* max-width: 500px; */
+  /* min-width: 500px; */
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@media (max-width: 640px) {
+  .form-control {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+  }
+}
+
+.form-control:focus {
+  color: black;
+  -webkit-box-shadow: none;
+  border-color: #cccccc;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn.btn-light {
+  outline: none;
+  border: none;
+  background-color: rgb(177, 174, 174);
+}
