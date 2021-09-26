@@ -1,1 +1,1 @@
-echo "Dori"
+println "Dori"
